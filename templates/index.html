@@ -391,7 +391,7 @@
     <h2><span id="typing-text"></span></h2>
     <a href="#projects" class="btn-neon">View Projects</a>
     <br><br>
-    <a href="{{ url_for('static', filename='images/cv.jpeg') }}" class="btn-neon" download>Download Resume</a>
+    <a href="{{ url_for('static', filename='images/cv.jpg') }}" class="btn-neon" download>Download Resume</a>
   </div>
 </section>
 
@@ -430,9 +430,12 @@
       Python Web App
     </div>
     <div class="project-card">
-      <img src="{{ url_for('static', filename='images/P3.png') }}" alt="Project 3" />
-      E-commerce Design
+      <a href="http://localhost:5001" target="_blank">
+    
+      <img src="{{ url_for('static', filename='images/p4.png') }}" alt="Project 3" />
+    </a>    E-commerce Design
     </div>
+  
   </div>
 </section>
 
@@ -445,7 +448,6 @@
     <div class="project-card">“Quick delivery and great communication.” – Client C</div>
   </div>
 </section>
-
 <!-- Stats -->
 <section class="section stats">
   <h2>My Achievements</h2>
